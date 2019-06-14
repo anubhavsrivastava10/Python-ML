@@ -1,0 +1,69 @@
+import json
+json_faculty = """
+{
+    "Faculty1":{
+        "First Name": "Ford",
+        "Last Name": "Prefect",
+        "Photo":"C:\\Users\MY HP\Pictures\Screenshots\Screenshot (52)",
+        "Department":"CSE",
+        "Research Areas": ["Developer","Computers"],
+        "Contact Details":[
+                {
+                    "Phone Number":["123456789","987654321"],
+                    "Email":["abc@gamil.com","Def@gamil.com"]
+                }
+                ]
+        }
+} ,
+{
+    "Faculty2":{
+        "First Name": "Perfect",
+        "Last Name": "Ford",
+        "Photo":"C:\\Users\MY HP\Pictures\Screenshots\Screenshot (53)",
+        "Department":"CSE",
+        "Research Areas": ["Developer","Computers"],
+        "Contact Details":[
+                {
+                    "Phone Number":["123456781239","9123187654321"],
+                    "Email":["abcd@gamil.com","Deaf@gamil.com"]
+                }
+                ]
+        } 
+}
+"""
+
+json_student = """
+{
+    "Student1":{
+        "First Name":"Alpha",
+        "Last Name":"Beta",
+        "ID":"123",
+        "Contact Details":[
+                {
+                    "Phone Number":["123456789","987654321"],
+                    "Email":["abc@gamil.com","Def@gamil.com"],
+                    "Address":["Aplha Street","Beta Street"]
+                }
+                ],
+        "Branch":"CSE",
+        "Year":"3"
+        }
+} , 
+{
+    "Student2":{
+        "First Name":"Alphaaaa",
+        "Last Name":"Betaaaaa",
+        "ID":"1233",
+        "Contact Details":[
+                {
+                    "Phone Number":["11223456789","983427654321"],
+                    "Email":["abceff@gamil.com","Defsf@gamil.com"],
+                    "Address":["Aplhaaa Street","Betaaaa Street"]
+                }
+                ],
+        "Branch":"CSE",
+        "Year":"3"
+        }
+}
+
+"""
